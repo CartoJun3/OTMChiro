@@ -74,9 +74,6 @@ function Header({
           />
         </Link>
         <div className="flex items-center gap-x-8">
-          <Button href="#" invert={invert} className='invisible md:visible'>
-            Make a Booking
-          </Button>
           <button
             ref={toggleRef}
             type="button"

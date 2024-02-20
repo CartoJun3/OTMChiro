@@ -17,6 +17,9 @@ export function Hero() {
             Restoring balance to your nervous system through the highest level of chiropractic treatment.
             </p>
           </div>
+          <div className='mt-24'><Button className='h-12 text-3xl' href="/contact">
+                Make a Booking
+              </Button></div>
         </div>
         </FadeIn>
       </Container>
