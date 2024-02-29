@@ -134,7 +134,7 @@ function Navigation() {
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
         <NavigationItem href="/about">About Us</NavigationItem>
-        <NavigationItem href="https://own-the-movement-chiropractic.au2.cliniko.com/bookings">Make a Booking</NavigationItem>
+        <NavigationItem href="/book">Make a Booking</NavigationItem>
       </NavigationRow>
       <NavigationRow>
         <NavigationItem href="/services">Our Services</NavigationItem>

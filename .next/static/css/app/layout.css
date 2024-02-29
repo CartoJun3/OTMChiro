@@ -1812,6 +1812,14 @@ video {
         font-size: 1rem;
         line-height: 1.75rem
     }
+    .sm\:text-xl {
+        font-size: 1.25rem;
+        line-height: 2rem
+    }
+    .sm\:text-3xl {
+        font-size: 1.75rem;
+        line-height: 2.25rem
+    }
     .sm\:font-semibold {
         font-weight: 600
     }
