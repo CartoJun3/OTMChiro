@@ -15,7 +15,7 @@ function Benefits() {
   return (
     <>
       <SectionIntro
-        title="Why Own The Movement Chiropractic?"
+        title="Explained: Own the Movement"
         className="mt-8 sm:mt-12 lg:mt-16"
       >
         <p>

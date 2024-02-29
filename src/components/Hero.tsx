@@ -17,7 +17,7 @@ export function Hero() {
             Restoring balance to your nervous system through the highest level of chiropractic treatment.
             </p>
           </div>
-          <div className='mt-24'><Button className='h-12 text-3xl' href="/contact">
+          <div className='mt-24'><Button className='h-12 text-3xl' href="https://own-the-movement-chiropractic.au2.cliniko.com/bookings">
                 Make a Booking
               </Button></div>
         </div>

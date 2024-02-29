@@ -13,7 +13,7 @@ export function ContactSection() {
               Book an appointment with us
             </h2>
             <div className="mt-6 flex">
-              <Button href="/contact" invert>
+              <Button href="https://own-the-movement-chiropractic.au2.cliniko.com/bookings" invert>
                 Make Booking
               </Button>
             </div>

@@ -733,9 +733,6 @@ video {
 .visible {
     visibility: visible
 }
-.invisible {
-    visibility: hidden
-}
 .absolute {
     position: absolute
 }
@@ -773,18 +770,6 @@ video {
 }
 .top-px {
     top: 1px
-}
-.bottom-0 {
-    bottom: 0px
-}
-.bottom-10 {
-    bottom: 2.5rem
-}
-.bottom-20 {
-    bottom: 5rem
-}
-.-bottom-20 {
-    bottom: -5rem
 }
 .isolate {
     isolation: isolate
@@ -872,12 +857,6 @@ video {
 .mt-px {
     margin-top: 1px
 }
-.mt-12 {
-    margin-top: 3rem
-}
-.ml-12 {
-    margin-left: 3rem
-}
 .block {
     display: block
 }
@@ -925,9 +904,6 @@ video {
 }
 .h-screen {
     height: 100vh
-}
-.h-24 {
-    height: 6rem
 }
 .min-h-full {
     min-height: 100%
@@ -1072,16 +1048,6 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(1.5rem * var(--tw-space-y-reverse))
-}
-.space-y-12 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(3rem * var(--tw-space-y-reverse))
-}
-.space-y-24 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(6rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(6rem * var(--tw-space-y-reverse))
 }
 .divide-y > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-y-reverse: 0;
@@ -1280,9 +1246,6 @@ video {
 }
 .text-center {
     text-align: center
-}
-.align-bottom {
-    vertical-align: bottom
 }
 .font-display {
     font-family: Mona Sans, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -1878,12 +1841,6 @@ video {
     }
 }
 @media (min-width: 768px) {
-    .md\:visible {
-        visibility: visible
-    }
-    .md\:mt-24 {
-        margin-top: 6rem
-    }
     .md\:px-12 {
         padding-left: 3rem;
         padding-right: 3rem

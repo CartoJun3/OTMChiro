@@ -134,7 +134,7 @@ function Navigation() {
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
         <NavigationItem href="/about">About Us</NavigationItem>
-        <NavigationItem href="/book">Make a Booking</NavigationItem>
+        <NavigationItem href="https://own-the-movement-chiropractic.au2.cliniko.com/bookings">Make a Booking</NavigationItem>
       </NavigationRow>
       <NavigationRow>
         <NavigationItem href="/services">Our Services</NavigationItem>
@@ -227,7 +227,6 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
                     </h2>
                     <p className='text-white'>200 Bradman Street, Sunnybank Hills</p>
                     <ClinicHours
-                      invert
                       className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2"
                     />
                   </div>
