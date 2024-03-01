@@ -1,25 +1,25 @@
 import { type Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import { ContactSection } from '@/components/ContactSection'
+import ContactSection2 from '@/components/ContactSection2'
 import { Container } from '@/components/Container'
 import { FadeIn, FadeInStagger } from '@/components/FadeIn'
 import { List, ListItem } from '@/components/List'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { Testimonial } from '@/components/Testimonial'
-import imageLaptop from '@/images/laptop.png'
+import imagepuzzle from '@/images/IMG_4987.jpg'
 import { Hero } from '@/components/Hero'
 
 function Benefits() {
   return (
     <>
       <SectionIntro
-        title="Explained: Own the Movement"
+        title="OTM - Own The Movement"
         className="mt-8 sm:mt-12 lg:mt-16"
       >
         <p>
-          We believe everyone has the right to good health and their optimal quality of life.
+          We believe chiropractic is a powerful, natural way to create change in how you body moves and how you feel. Improving the connection between mind and body helps you perform at your best.
         </p>
       </SectionIntro>
       <Container className="mt-4">
@@ -27,21 +27,21 @@ function Benefits() {
           <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
             <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
               <StylizedImage
-                src={imageLaptop}
+                src={imagepuzzle}
                 sizes="(min-width: 1024px) 41rem, 31rem"
                 className="justify-center lg:justify-end"
               />
             </FadeIn>
           </div>
           <List className="mt-4 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Move Well">
-              Through Chiropractic, we'll help you move your body how it was designed.
+            <ListItem title="Meet you where you are">
+            We assist with headaches, low back pain, neck pain, postural issues and chronic pain.
             </ListItem>
             <ListItem title="Pain to Performance">
-              Using Chiropracitc, we'll help you advance from pain, to prevention, to performance.
+            Using Chiropractic and rehabilitation, we’ll help you get out of the frustrating cycle of pain and help you own the movement.
             </ListItem>
-            <ListItem title="Optimize Health">
-              Health is a process, made up of multiple components. Chiropractic is a key component of optimizing it.
+            <ListItem title="Achieve your Goals">
+            Health is a process. We will walk with you on this journey.
             </ListItem>
           </List>
         </div>
@@ -69,7 +69,7 @@ export default async function Home() {
 
       <Benefits />
 
-      <ContactSection />
+      <ContactSection2 />
     </>
   )
 }

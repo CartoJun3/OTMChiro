@@ -18,7 +18,7 @@ export function PageIntro({
     <Container
       className={clsx('mt-24 sm:mt-32 lg:mt-40', centered && 'text-center')}
     >
-      <FadeIn className='max-w-2xl'>
+      <FadeIn className='max-w-fit'>
         <h1>
           <span className="block font-display text-base font-semibold text-neutral-950">
             {eyebrow}

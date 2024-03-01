@@ -70,7 +70,6 @@ function Header({
         >
           <Logo
             className="hidden h-8 sm:block"
-            invert={invert}
           />
         </Link>
         <div className="flex items-center gap-x-8">
@@ -90,7 +89,7 @@ function Header({
               className={clsx(
                 'h-6 w-6',
                 invert
-                  ? 'fill-white group-hover:fill-neutral-200'
+                  ? 'fill-neutral-950 group-hover:fill-neutral-700'
                   : 'fill-neutral-950 group-hover:fill-neutral-700',
               )}
             />
@@ -202,7 +201,7 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
           inert={expanded ? undefined : ''}
         >
           <motion.div layout className="bg-neutral-800">
-            <div ref={navRef} className="bg-neutral-950 pb-16 pt-14">
+            <div ref={navRef} className="bg-white pb-16 pt-14">
               <Header
                 invert
                 panelId={panelId}
@@ -220,12 +219,8 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
             <Navigation />
             <div className="relative bg-neutral-950 before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-neutral-800">
               <Container>
-                <div className="grid grid-cols-1 gap-y-10 pb-16 pt-10 sm:grid-cols-2 sm:pt-16">
+                <div className="grid grid-cols-1 gap-y-10 pb-16 pt-8 sm:grid-cols-2 sm:pt-8">
                   <div>
-                    <h2 className="font-display text-base font-semibold text-white">
-                      Our Clinic
-                    </h2>
-                    <p className='text-white'>200 Bradman Street, Sunnybank Hills</p>
                     <ClinicHours
                       className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2"
                     />

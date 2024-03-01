@@ -1,3 +1,6 @@
+import AboutImage from '@/images/IMG_4972.jpg'
+import Image from 'next/image'
+
 export default function AboutIntro() {
     return (
       <div className="relative bg-white pt-8">
@@ -8,20 +11,16 @@ export default function AboutIntro() {
                 Lead Chiropractor: <br></br>Ben Lowe
               </h1>
               <p className="mt-6 text-md leading-8 text-gray-600">
-              Ben has an admiration for the simplicity and complexity of movement. He also understands how
-mentally fatiguing and physically frustrating it is to deal with new and long term pain. Ben has a
-passion for helping people which led him to Chiropractic. <br></br><br></br>He has been a lead gymnastics coach
-
-for over 10 years and has helped many individual clients with their movement goals. Ben
-understands there is no one help you move better and is committed to the process of healing.
-He prides himself in delivering personalized care that goes beyond a cookie cutter approach.
+              Ben, with over a decade of gymnastics coaching experience and a Masters in Chiropractic Science, holds a deep appreciation for the nuances of movement. Actively engaged in parkour, mountain biking, and rock climbing, he forges a strong connection to diverse physical activities. Beyond his professional roles, Ben dedicates his chiropractic expertise to community impact, notably contributing to Homeless Connect in Brisbane CBD.
+<br></br><br></br>
+Having personally grappled with chronic rib and low back pain, Ben's empathy fuels his passion for chiropractic care. Ben recognizes the uniqueness of each person's journey, having successfully aided a variety of individuals, including personal trainers, gymnasts, mountain bikers, dancers, skiers and many more. Dedicated to the healing process, he takes pride in helping people move better and attain their well-being goals.
               </p>
             </div>
           </div>
           <div className="relative lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0">
-            <img
-              className="aspect-[3/2] w-full bg-gray-50 object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
-              src="https://images.unsplash.com/photo-1498758536662-35b82cd15e29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2102&q=80"
+            <Image
+              className="pt-16 object-top aspect-[3/2] w-full bg-gray-50 object-cover overflow-hidden lg:absolute lg:inset-0 lg:aspect-[8/7] lg:pr-16"
+              src={AboutImage}
               alt=""
             />
           </div>

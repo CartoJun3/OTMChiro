@@ -16,7 +16,7 @@ export function Testimonial({
   return (
     <div
       className={clsx(
-        'relative isolate bg-neutral-50 py-16 sm:py-28 md:py-32',
+        'relative isolate bg-neutral-50 py-8 sm:py-16 md:py-20',
         className,
       )}
     >

@@ -4,20 +4,15 @@ import { Container } from '@/components/Container'
 import { FadeIn, FadeInStagger } from '@/components/FadeIn'
 export function Hero() {
   return (
-    <div className="relative pt-36 h-screen">
+    <div className="relative pt-36 h-[calc(100vh-72px)]">
       <BackgroundImage/>
-      <Container className="relative">
+      <Container className="relative h-[calc(100vh-72px)]">
       <FadeIn>
         <div className="mx-auto w-2xl lg:max-w-4xl lg:px-12">
           <h1 className="font-display text-5xl font-bold tracking-tighter text-neutral-800 sm:text-7xl">
-            <span className="sr-only">Chiropractic and Rehabilitation</span>Chiropractic and Rehabilitation
+            <span className="sr-only">Balanced chiropractic care to help you move well.</span>Balanced chiropractic care to help you move well.
           </h1>
-          <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-neutral-950">
-            <p>
-            Restoring balance to your nervous system through the highest level of chiropractic treatment.
-            </p>
-          </div>
-          <div className='mt-24'><Button className='h-12 text-3xl' href="/book">
+          <div className='mt-24'><Button className='h-12 text-5xl' href="/book">
                 Make a Booking
               </Button></div>
         </div>

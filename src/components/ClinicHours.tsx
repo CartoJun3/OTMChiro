@@ -32,8 +32,13 @@ export function ClinicHours({
   return (
     <ul role="list" {...props}>
       <li>
+        <ClinicHour name="Clinic Location" invert={invert}>
+          Level 1, 200 Bradman Street, Sunnybank Hills
+        </ClinicHour>
+      </li>
+      <li>
         <ClinicHour name="Monday & Thursday" invert={invert}>
-          8am - 6pm
+          8am - 11am | 2pm-6pm
         </ClinicHour>
       </li>
       <li>
