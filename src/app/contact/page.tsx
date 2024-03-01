@@ -62,10 +62,6 @@ function ContactForm() {
 function ContactDetails() {
   return (
     <div>
-      <h2 className="font-display text-base font-semibold text-neutral-950">
-        Our Clinic
-      </h2>
-      <p>200 Bradman Street, Sunnybank Hills</p>
       <ClinicHours invert className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2" />
 
       <Border className="mt-16 pt-16">
