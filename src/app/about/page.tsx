@@ -1,8 +1,6 @@
 import { type Metadata } from 'next'
-import Image from 'next/image'
 
 import ContactSection2 from '@/components/ContactSection2'
-import { Container } from '@/components/Container'
 import { PageIntro } from '@/components/PageIntro'
 import AboutIntro from '@/components/AboutIntro'
 

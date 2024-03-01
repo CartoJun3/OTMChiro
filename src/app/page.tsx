@@ -1,6 +1,5 @@
 import { type Metadata } from 'next'
 import Image from 'next/image'
-import Link from 'next/link'
 import ContactSection2 from '@/components/ContactSection2'
 import { Container } from '@/components/Container'
 import { FadeIn, FadeInStagger } from '@/components/FadeIn'
@@ -8,7 +7,7 @@ import { List, ListItem } from '@/components/List'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { Testimonial } from '@/components/Testimonial'
-import imagepuzzle from '@/images/IMG_4987.jpg'
+import imagepuzzle from '@/images/4987.jpg'
 import { Hero } from '@/components/Hero'
 
 function Benefits() {

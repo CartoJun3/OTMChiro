@@ -1,4 +1,4 @@
-import AboutImage from '@/images/IMG_4972.jpg'
+import AboutImage from '@/images/4972.jpg'
 import Image from 'next/image'
 
 export default function AboutIntro() {
