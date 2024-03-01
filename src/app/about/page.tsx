@@ -21,7 +21,7 @@ export default async function About() {
       <PageIntro eyebrow="" title="Our Ideal Patient">
         <p>
         Having previously worked in Brisbane North, Ben is now expanding to Brisbane South in order to provide chiropractic care to all the people of Brisbane. We care for people of all ages ranging from
-young athletes, entrepreneurs, mums, dads and retirees. We strive to help you own the
+young athletes, children, mums, dads and retirees. We strive to help you own the
 movement. To help you understand a way forwards and empower you on your health journey.
         </p><br></br>
           <p>
