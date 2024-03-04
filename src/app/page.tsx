@@ -8,11 +8,10 @@ import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { Testimonial } from '@/components/Testimonial'
 import imagepuzzle from '@/images/4987.jpg'
-import { Hero } from '@/components/Hero'
 import image1 from '@/images/4964.jpg'
 import image2 from '@/images/4967.jpg'
 import image3 from '@/images/image1.jpg'
-import image4 from '@/images/4972.jpg'
+import { Hero } from '@/components/Hero'
 
 const PhotoGallery = () => {
   return (

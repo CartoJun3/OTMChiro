@@ -505,6 +505,26 @@ video {
   src: url(/_next/static/media/Mona-Sans.var.37e1d48f.woff2) format('woff2');
 }
 
+.video-docker video {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.video-docker::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.video-content {
+  z-index: 2;
+}
+
 /*!***********************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/styles/typography.css ***!
   \***********************************************************************************************************************************************************************************************************************************************************************/
@@ -954,6 +974,9 @@ video {
 .h-auto {
     height: auto
 }
+.h-screen {
+    height: 100vh
+}
 .max-h-40 {
     max-height: 10rem
 }
@@ -1007,6 +1030,9 @@ video {
 }
 .w-1\/2 {
     width: 50%
+}
+.min-w-full {
+    min-width: 100%
 }
 .\!max-w-none {
     max-width: none !important
@@ -1169,6 +1195,11 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(1.5rem * var(--tw-space-y-reverse))
+}
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0.5rem * var(--tw-space-y-reverse))
 }
 .divide-y > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-y-reverse: 0;
@@ -1365,6 +1396,10 @@ video {
     padding-top: 2rem;
     padding-bottom: 2rem
 }
+.py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px
+}
 .pb-16 {
     padding-bottom: 4rem
 }
@@ -1466,6 +1501,10 @@ video {
     font-size: 1.25rem;
     line-height: 1.75rem
 }
+.text-6xl {
+    font-size: 3rem;
+    line-height: 3.5rem
+}
 .font-bold {
     font-weight: 700
 }
@@ -1474,6 +1513,9 @@ video {
 }
 .font-semibold {
     font-weight: 600
+}
+.font-light {
+    font-weight: 300
 }
 .uppercase {
     text-transform: uppercase
@@ -2091,6 +2133,12 @@ video {
 @media (min-width: 768px) {
     .md\:visible {
         visibility: visible
+    }
+    .md\:block {
+        display: block
+    }
+    .md\:hidden {
+        display: none
     }
     .md\:px-12 {
         padding-left: 3rem;
