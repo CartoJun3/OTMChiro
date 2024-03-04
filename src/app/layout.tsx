@@ -16,7 +16,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="h-full bg-neutral-950 text-base antialiased">
       <body className="flex min-h-full flex-col">
-      <Banner></Banner>
         <script>0</script>
         <RootLayout>{children}</RootLayout>
       </body>
