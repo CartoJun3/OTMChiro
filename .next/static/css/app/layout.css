@@ -2051,6 +2051,9 @@ video {
     }
 }
 @media (min-width: 768px) {
+    .md\:visible {
+        visibility: visible
+    }
     .md\:px-12 {
         padding-left: 3rem;
         padding-right: 3rem
