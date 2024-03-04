@@ -12,7 +12,7 @@ export function Hero() {
           <h1 className="font-display text-5xl font-bold tracking-tighter text-neutral-800 sm:text-7xl">
             <span className="sr-only">Balanced chiropractic care to help you move well.</span>Balanced chiropractic care to help you move well.
           </h1>
-          <div className='mt-24'><Button className='h-12 text-3xl sm:text-5xl' href="/book">
+          <div className='mt-24'><Button className='text-3xl sm:text-5xl' href="/book">
                 Make a Booking
               </Button></div>
         </div>

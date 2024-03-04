@@ -18,7 +18,7 @@ export default async function About() {
     <>
     <br></br>
      <AboutIntro></AboutIntro>
-      <PageIntro eyebrow="" title="Our Ideal Patient">
+      <PageIntro eyebrow="" title="Our Patients">
         <p>
         Having previously worked in Brisbane North, Ben is now expanding to Brisbane South in order to provide chiropractic care to all the people of Brisbane. We care for people of all ages ranging from
 young athletes, children, mums, dads and retirees. We strive to help you own the

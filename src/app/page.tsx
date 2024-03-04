@@ -9,7 +9,7 @@ import { StylizedImage } from '@/components/StylizedImage'
 import { Testimonial } from '@/components/Testimonial'
 import imagepuzzle from '@/images/4987.jpg'
 import { Hero } from '@/components/Hero'
-
+import Banner from '@/components/Banner'
 function Benefits() {
   return (
     <>
@@ -67,7 +67,7 @@ export default async function Home() {
       </Testimonial>
 
       <Benefits />
-
+      <br></br>
       <ContactSection2 />
     </>
   )
