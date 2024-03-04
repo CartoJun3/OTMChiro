@@ -19,7 +19,7 @@ Having personally grappled with chronic rib and low back pain, Ben's empathy fue
           </div>
           <div className="relative lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0">
             <Image
-              className="pt-16 max-h-50 object-top bg-gray-50 object-cover lg:absolute lg:inset-0 lg:aspect-[8/7] lg:pr-16 lg:max-h-50"
+              className="pt-16 max-h-50 object-top object-cover lg:absolute lg:inset-0 lg:aspect-[8/7] lg:pr-16 lg:max-h-50"
               src={AboutImage}
               alt=""
             />
