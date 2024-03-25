@@ -17,12 +17,15 @@ export default async function Services() {
         <ul className="list-disc">
           <li>Back & Neck Pain</li>
           <li>Headaches & Migranes</li>
-          <li>Joint Pain</li>
+          <li>Joint Pain - Knees, Hips, Ankles, Shoulders, Wrists and Elbows</li>
           <li>Sciatica or Nerve Compression</li>
           <li>Muscle Tension and Spasms</li>
           <li>Posture Issues</li>
           <li>Sports Injuries</li>
           <li>Arthritis</li>
+          <li>Chronic Pain and Ongoing Longterm Issues</li>
+          <li>Tennis and Golfer's Elbow</li>
+          <li>Frozen Shoulders</li>
         </ul>
         </div>
       </SectionIntro>

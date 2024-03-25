@@ -11,7 +11,7 @@ export default function AboutIntro() {
                 Lead Chiropractor: <br></br>Ben Lowe
               </h1>
               <p className="mt-6 text-md leading-8 text-gray-600">
-              Ben, with over a decade of gymnastics coaching experience and a Masters in Chiropractic Science, holds a deep appreciation for the nuances of movement. Through his personal experience in gymnastics, parkour, mountain biking, and rock climbing, Ben has developed a strong understanding of all forms of movement. Beyond his professional roles, Ben dedicates his chiropractic expertise to community impact, notably contributing to Homeless Connect in Brisbane CBD.
+              Dr Ben has over 20 years gymnastics experience at a national level and was a head gymnastics coach for 10 years. He holds a Masters in Clinical Chiropractic. Ben holds a deep appreciation for the nuances of movement and what it takes to break through long term pain. Through his personal experience in gymnastics, parkour, mountain biking, skateboarding and rock climbing, Ben has developed a strong understanding of all forms of movement. Beyond his professional roles, Ben dedicates his chiropractic expertise to community impact, notably contributing to Homeless Connect in Brisbane CBD.
 <br></br><br></br>
 Having personally grappled with chronic rib and low back pain, Ben's empathy fuels his passion for chiropractic care. Ben recognizes the uniqueness of each person's journey, having successfully aided a variety of individuals, including personal trainers, gymnasts, mountain bikers, dancers, skiers and many more. Dedicated to the healing process, he takes pride in helping people move better and attain their well-being goals.
               </p>
