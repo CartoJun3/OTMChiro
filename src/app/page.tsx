@@ -13,27 +13,6 @@ import image2 from '@/images/4967.jpg'
 import image3 from '@/images/image1.jpg'
 import { Hero } from '@/components/Hero'
 
-const PhotoGallery = () => {
-  return (
-    <div className="flex mt-12">
-      {/* Left Column */}
-      <div className="w-1/2 pr-2">
-        <div className="mb-4">
-          <Image src={image1} alt="Photo 1" className="w-full h-auto max-h-[50vh] rounded" />
-        </div>
-        <div>
-          <Image src={image3} alt="Photo 2" className="w-full h-auto max-h-[60vh] object-top  rounded" />
-        </div>
-      </div>
-
-      {/* Right Column */}
-      <div className="w-1/2 pl-2 flex items-center">
-        <Image src={image2} alt="Photo 3" className="w-full h-auto max-h-[100vh] rounded" />
-      </div>
-    </div>
-  );
-};
-
 function Benefits() {
   return (
     <>
@@ -100,7 +79,6 @@ export default async function Home() {
       <Benefits />
       <br></br>
       <ContactSection2 />
-      <PhotoGallery />
     </>
   )
 }

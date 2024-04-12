@@ -41,11 +41,11 @@ export function ClinicHours({
           8am - 11am | 2pm-6pm
         </ClinicHour>
       </li>
-      <li>
+      {/* <li>
         <ClinicHour name="Friday" invert={invert}>
           8am - 11am
         </ClinicHour>
-      </li>
+      </li> */}
     </ul>
   )
 }
