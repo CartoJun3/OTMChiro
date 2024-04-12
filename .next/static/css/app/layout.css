@@ -866,9 +866,6 @@ video {
 .mb-20 {
     margin-bottom: 5rem
 }
-.mb-4 {
-    margin-bottom: 1rem
-}
 .mb-6 {
     margin-bottom: 1.5rem
 }
@@ -877,9 +874,6 @@ video {
 }
 .mt-10 {
     margin-top: 2.5rem
-}
-.mt-12 {
-    margin-top: 3rem
 }
 .mt-16 {
     margin-top: 4rem
@@ -959,20 +953,8 @@ video {
 .h-\[calc\(100vh-72px\)\] {
     height: calc(100vh - 72px)
 }
-.h-auto {
-    height: auto
-}
 .h-full {
     height: 100%
-}
-.max-h-\[100vh\] {
-    max-height: 100vh
-}
-.max-h-\[50vh\] {
-    max-height: 50vh
-}
-.max-h-\[60vh\] {
-    max-height: 60vh
 }
 .min-h-full {
     min-height: 100%
@@ -982,9 +964,6 @@ video {
 }
 .w-0\.5 {
     width: 0.125rem
-}
-.w-1\/2 {
-    width: 50%
 }
 .w-12 {
     width: 3rem
@@ -1006,9 +985,6 @@ video {
 }
 .w-screen {
     width: 100vw
-}
-.w-4\/5 {
-    width: 80%
 }
 .\!max-w-none {
     max-width: none !important
@@ -1058,9 +1034,6 @@ video {
 .scale-100 {
     --tw-scale-x: 1;
     --tw-scale-y: 1;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
-}
-.transform {
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
 .transform-gpu {
@@ -1195,14 +1168,14 @@ video {
 .rounded-full {
     border-radius: 9999px
 }
+.rounded-lg {
+    border-radius: 0.5rem
+}
 .rounded-md {
     border-radius: 0.375rem
 }
 .rounded-xl {
     border-radius: 0.75rem
-}
-.rounded-lg {
-    border-radius: 0.5rem
 }
 .border {
     border-width: 1px
@@ -1262,10 +1235,6 @@ video {
 .bg-white\/50 {
     background-color: rgb(255 255 255 / 0.5)
 }
-.bg-gray-800 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(31 41 55 / var(--tw-bg-opacity))
-}
 .bg-gradient-to-b {
     background-image: linear-gradient(to bottom, var(--tw-gradient-stops))
 }
@@ -1305,6 +1274,10 @@ video {
 .object-cover {
     -o-object-fit: cover;
        object-fit: cover
+}
+.object-center {
+    -o-object-position: center;
+       object-position: center
 }
 .object-top {
     -o-object-position: top;
@@ -1367,13 +1340,13 @@ video {
     padding-top: 6rem;
     padding-bottom: 6rem
 }
+.py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
 .py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem
-}
-.px-2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem
 }
 .pb-16 {
     padding-bottom: 4rem
@@ -1384,9 +1357,6 @@ video {
 .pl-12 {
     padding-left: 3rem
 }
-.pl-2 {
-    padding-left: 0.5rem
-}
 .pl-6 {
     padding-left: 1.5rem
 }
@@ -1395,9 +1365,6 @@ video {
 }
 .pr-12 {
     padding-right: 3rem
-}
-.pr-2 {
-    padding-right: 0.5rem
 }
 .pt-10 {
     padding-top: 2.5rem
@@ -1526,6 +1493,10 @@ video {
     --tw-text-opacity: 1;
     color: rgb(209 213 219 / var(--tw-text-opacity))
 }
+.text-gray-500 {
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity))
+}
 .text-gray-600 {
     --tw-text-opacity: 1;
     color: rgb(75 85 99 / var(--tw-text-opacity))
@@ -1579,13 +1550,15 @@ video {
 .opacity-60 {
     opacity: 0.6
 }
-.opacity-100 {
-    opacity: 1
-}
 .shadow-sm {
     --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
     --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+.ring {
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)
 }
 .ring-4 {
     --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
@@ -1627,11 +1600,6 @@ video {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms
 }
-.transition-opacity {
-    transition-property: opacity;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 150ms
-}
 .duration-200 {
     transition-duration: 200ms
 }
@@ -1640,12 +1608,6 @@ video {
 }
 .duration-500 {
     transition-duration: 500ms
-}
-.duration-1000 {
-    transition-duration: 1000ms
-}
-.ease-in-out {
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 .\[mask-image\:radial-gradient\(closest-side\2c white\2c transparent\)\] {
     -webkit-mask-image: radial-gradient(closest-side,white,transparent);
@@ -2050,6 +2012,10 @@ video {
         padding-top: 8rem;
         padding-bottom: 8rem
     }
+    .sm\:py-4 {
+        padding-top: 1rem;
+        padding-bottom: 1rem
+    }
     .sm\:pl-16 {
         padding-left: 4rem
     }
@@ -2186,6 +2152,9 @@ video {
     }
     .lg\:max-w-4xl {
         max-width: 56rem
+    }
+    .lg\:max-w-7xl {
+        max-width: 80rem
     }
     .lg\:max-w-none {
         max-width: none

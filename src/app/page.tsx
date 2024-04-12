@@ -12,7 +12,7 @@ import image1 from '@/images/4964.jpg'
 import image2 from '@/images/4967.jpg'
 import image3 from '@/images/image1.jpg'
 import { Hero } from '@/components/Hero'
-
+import Gallery1 from '@/components/Gallery1'
 function Benefits() {
   return (
     <>
@@ -79,6 +79,7 @@ export default async function Home() {
       <Benefits />
       <br></br>
       <ContactSection2 />
+      <Gallery1/>
     </>
   )
 }
