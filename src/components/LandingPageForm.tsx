@@ -67,7 +67,7 @@ export function LandingPageForm() {
           </dl>
         </div>
       </div>
-      <form className='pt-8'>
+      <form data-netlify="true" className='pt-8'>
         <div className="border-b border-gray-900/10 pb-12">
           <h2 className="text-base font-semibold leading-7 text-gray-900">About You</h2>
           <p className="mt-1 text-sm leading-6 text-gray-600">Enter your details and Dr. Ben will be in contact to arrange an appointment</p>
