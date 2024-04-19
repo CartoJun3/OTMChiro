@@ -37,7 +37,7 @@ function TextInput({
 
 function ContactForm() {
   return (
-      <form data-netlify="true">
+      <form data-netlify="true" method="POST" name='contactform'>
         <h2 className="font-display text-base font-semibold text-neutral-950">
           Send your Enquiry
         </h2>
