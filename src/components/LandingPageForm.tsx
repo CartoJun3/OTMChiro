@@ -1,5 +1,5 @@
 import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
-import { ArrowPathIcon, CloudArrowUpIcon, LockClosedIcon } from '@heroicons/react/20/solid'
+import { CalendarIcon, MapPinIcon, CurrencyDollarIcon, CheckBadgeIcon} from '@heroicons/react/20/solid'
 import image1 from '@/images/welcome.jpg'
 const features = [
 
@@ -9,14 +9,14 @@ const features = [
       description:
         'Level 1, 200 Bradman Street, Sunnybank Hills',
       href: '#',
-      icon: CloudArrowUpIcon,
+      icon: MapPinIcon,
     },
     {
       name: 'Opening Hours',
       description:
         'Mondays & Thursdays: 8am - 6pm',
       href: '#',
-      icon: LockClosedIcon,
+      icon: CalendarIcon,
     },
     {
       name: 'Our Pricing',
@@ -28,14 +28,14 @@ const features = [
     </p>
   ,
       href: '#',
-      icon: ArrowPathIcon,
+      icon: CurrencyDollarIcon,
     },
     {
         name: 'We Help With',
         description:
           'Headache, Back Pain, Sports Injuries, Knee / Ankle Pain. (See Full List Below)',
         href: '#',
-        icon: ArrowPathIcon,
+        icon: CheckBadgeIcon,
       }
   ]
 
