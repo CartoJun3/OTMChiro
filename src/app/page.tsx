@@ -10,10 +10,11 @@ import { Testimonial } from '@/components/Testimonial'
 import imagepuzzle from '@/images/4987.jpg'
 import { Hero } from '@/components/Hero'
 import Gallery1 from '@/components/Gallery1'
+import { HomePageIcons } from '@/components/HomePageIcons'
 function Benefits() {
   return (
     <>
-      <SectionIntro
+      {/* <div className='bg-gray-200 mt-6'><SectionIntro
         title="OTM - Own The Movement"
         className="mt-8 sm:mt-12 lg:mt-16"
       >
@@ -28,6 +29,7 @@ function Benefits() {
 
         </p>
       </SectionIntro>
+      </div> */}
       <Container className="mt-4">
         <div className="lg:flex lg:items-center lg:justify-end">
           <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
@@ -72,7 +74,7 @@ export default async function Home() {
       >
         The mind and body are intimately connected. Taking care of one is essential for taking care of the other.
       </Testimonial> */}
-
+      <HomePageIcons />
       <Benefits />
       <br></br>
       <ContactSection2 />

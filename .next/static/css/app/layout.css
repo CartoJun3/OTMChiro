@@ -902,6 +902,9 @@ video {
 .mt-px {
     margin-top: 1px
 }
+.mt-20 {
+    margin-top: 5rem
+}
 .block {
     display: block
 }
@@ -971,6 +974,12 @@ video {
 .h-11 {
     height: 2.75rem
 }
+.h-56 {
+    height: 14rem
+}
+.h-24 {
+    height: 6rem
+}
 .min-h-full {
     min-height: 100%
 }
@@ -1003,6 +1012,12 @@ video {
 }
 .w-screen {
     width: 100vw
+}
+.w-56 {
+    width: 14rem
+}
+.w-24 {
+    width: 6rem
 }
 .\!max-w-none {
     max-width: none !important
@@ -1202,6 +1217,9 @@ video {
 .rounded-xl {
     border-radius: 0.75rem
 }
+.rounded-sm {
+    border-radius: 0.125rem
+}
 .border {
     border-width: 1px
 }
@@ -1272,6 +1290,10 @@ video {
 }
 .bg-white\/50 {
     background-color: rgb(255 255 255 / 0.5)
+}
+.bg-gray-200 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(229 231 235 / var(--tw-bg-opacity))
 }
 .bg-gradient-to-b {
     background-image: linear-gradient(to bottom, var(--tw-gradient-stops))
@@ -1390,6 +1412,18 @@ video {
     padding-top: 2rem;
     padding-bottom: 2rem
 }
+.py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem
+}
+.px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem
+}
+.px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem
+}
 .pb-12 {
     padding-bottom: 3rem
 }
@@ -1446,6 +1480,9 @@ video {
 }
 .pb-24 {
     padding-bottom: 6rem
+}
+.pb-6 {
+    padding-bottom: 1.5rem
 }
 .text-left {
     text-align: left
@@ -1591,6 +1628,10 @@ video {
 .text-gray-500 {
     --tw-text-opacity: 1;
     color: rgb(107 114 128 / var(--tw-text-opacity))
+}
+.text-gray-400 {
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity))
 }
 .line-through {
     text-decoration-line: line-through
@@ -1847,6 +1888,10 @@ video {
 .hover\:text-red-500:hover {
     --tw-text-opacity: 1;
     color: rgb(239 68 68 / var(--tw-text-opacity))
+}
+.hover\:text-gray-500:hover {
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity))
 }
 .hover\:ring-gray-900\/20:hover {
     --tw-ring-color: rgb(17 24 39 / 0.2)
@@ -2355,6 +2400,10 @@ video {
     .lg\:px-0 {
         padding-left: 0px;
         padding-right: 0px
+    }
+    .lg\:px-24 {
+        padding-left: 6rem;
+        padding-right: 6rem
     }
     .lg\:pl-4 {
         padding-left: 1rem
