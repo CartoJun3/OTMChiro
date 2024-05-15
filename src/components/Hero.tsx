@@ -52,7 +52,7 @@ export function Hero() {
         </div>
         <div className="mt-10 relative lg:col-span-5 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0">
           <img
-            className="w-full bg-gray-50 object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full lg:pt-24 lg:pr-24"
+            className="w-full bg-gray-50 object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full lg:pt-12 lg:pr-24"
             src={backgroundImage.src}
             alt=""
           />
