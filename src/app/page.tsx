@@ -45,10 +45,10 @@ function Benefits() {
             <ListItem title="Meet you where you are">
             We assist with headaches, low back pain, neck pain, postural issues, tennis and golfers elbow, hip pain, frozen shoulders, chronic pain and ongoing longterm issues.
             </ListItem>
-            <ListItem title="Pain to Performance">
+            <ListItem title="Pain to performance">
             Using Chiropractic and rehabilitation, we’ll help you get out of the frustrating cycle of pain and help you own the movement.
             </ListItem>
-            <ListItem title="Achieve your Goals">
+            <ListItem title="Achieve your goals">
             Health is a process. We will walk with you on this journey.
             </ListItem>
           </List>
