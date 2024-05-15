@@ -4,10 +4,12 @@ function ClinicHour({
   name,
   children,
   invert = false,
+  email=false,
 }: {
   name: string
   children: React.ReactNode
   invert?: boolean
+  email?:boolean
 }) {
   return (
     <address
@@ -20,7 +22,7 @@ function ClinicHour({
         {name}
       </strong>
       <br />
-      {children}
+      {email?<a href='mailto:help@otmchiropractic.com'>help@otmchiropractic.com</a>:children}
     </address>
   )
 }
@@ -38,14 +40,19 @@ export function ClinicHours({
       </li>
       <li>
         <ClinicHour name="Monday & Thursday" invert={invert}>
-          8am - 11am | 2pm-6pm
+          8am - 6pm
         </ClinicHour>
       </li>
-      {/* <li>
-        <ClinicHour name="Friday" invert={invert}>
-          8am - 11am
+      <li>
+        <ClinicHour name="Email" invert={invert} email={true}>
+          help@otmchiropractic.com"
         </ClinicHour>
-      </li> */}
+      </li>
+      <li>
+        <ClinicHour name="Phone" invert={invert}>
+          0457 256 628
+        </ClinicHour>
+      </li>
     </ul>
   )
 }
