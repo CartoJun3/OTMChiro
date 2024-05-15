@@ -13,7 +13,7 @@ export default function Gallery1() {
                   <img
                     src={image1.src}
                     alt="Image1"
-                    className="h-full w-full object-cover object-center"
+                    className="w-full object-cover object-center max-h-[30rem]"
                   />
                 </div>
               </div>
@@ -22,7 +22,7 @@ export default function Gallery1() {
                   <img
                     src={image2.src}
                     alt="Image2"
-                    className="h-full w-full object-cover object-center"
+                    className="w-full object-cover object-center max-h-[30rem]"
                   />
                 </div>
               </div>

@@ -6,10 +6,10 @@ export default function ContactSection2() {
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               Start your health journey today.
               <br />
-              Make a booking with OTM Chiropractic.
+              Make a booking with <span className="text-red-500">OTM Chiropractic</span>.
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
-              Please select First Appointment on the Booking Page if this will be your first visit.
+              Please select First Appointment on the Booking Page if this is your first visit.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
