@@ -8,9 +8,6 @@ import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { Testimonial } from '@/components/Testimonial'
 import imagepuzzle from '@/images/4987.jpg'
-import image1 from '@/images/4964.jpg'
-import image2 from '@/images/4967.jpg'
-import image3 from '@/images/image1.jpg'
 import { Hero } from '@/components/Hero'
 import Gallery1 from '@/components/Gallery1'
 function Benefits() {
@@ -69,12 +66,12 @@ export default async function Home() {
   return (
     <>
     <Hero></Hero>
-      <Testimonial
+      {/* <Testimonial
         className=""
         client={{ name: 'Dr Andrew Huberman - Neuroscientist'}}
       >
         The mind and body are intimately connected. Taking care of one is essential for taking care of the other.
-      </Testimonial>
+      </Testimonial> */}
 
       <Benefits />
       <br></br>
