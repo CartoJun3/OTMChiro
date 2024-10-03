@@ -902,9 +902,6 @@ video {
 .mt-px {
     margin-top: 1px
 }
-.mt-20 {
-    margin-top: 5rem
-}
 .block {
     display: block
 }
@@ -935,9 +932,6 @@ video {
 .aspect-\[719\/680\] {
     aspect-ratio: 719/680
 }
-.aspect-\[3\/2\] {
-    aspect-ratio: 3/2
-}
 .h-0 {
     height: 0px
 }
@@ -946,6 +940,9 @@ video {
 }
 .h-12 {
     height: 3rem
+}
+.h-24 {
+    height: 6rem
 }
 .h-40 {
     height: 10rem
@@ -971,21 +968,6 @@ video {
 .h-full {
     height: 100%
 }
-.h-11 {
-    height: 2.75rem
-}
-.h-56 {
-    height: 14rem
-}
-.h-24 {
-    height: 6rem
-}
-.max-h-40 {
-    max-height: 10rem
-}
-.max-h-96 {
-    max-height: 24rem
-}
 .max-h-\[30rem\] {
     max-height: 30rem
 }
@@ -1000,6 +982,9 @@ video {
 }
 .w-12 {
     width: 3rem
+}
+.w-24 {
+    width: 6rem
 }
 .w-5 {
     width: 1.25rem
@@ -1021,12 +1006,6 @@ video {
 }
 .w-screen {
     width: 100vw
-}
-.w-56 {
-    width: 14rem
-}
-.w-24 {
-    width: 6rem
 }
 .\!max-w-none {
     max-width: none !important
@@ -1202,9 +1181,6 @@ video {
 .overflow-hidden {
     overflow: hidden
 }
-.whitespace-nowrap {
-    white-space: nowrap
-}
 .rounded {
     border-radius: 0.25rem
 }
@@ -1225,9 +1201,6 @@ video {
 }
 .rounded-xl {
     border-radius: 0.75rem
-}
-.rounded-sm {
-    border-radius: 0.125rem
 }
 .border {
     border-width: 1px
@@ -1253,6 +1226,10 @@ video {
 }
 .border-white\/10 {
     border-color: rgb(255 255 255 / 0.1)
+}
+.bg-gray-200 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(229 231 235 / var(--tw-bg-opacity))
 }
 .bg-gray-50 {
     --tw-bg-opacity: 1;
@@ -1299,10 +1276,6 @@ video {
 }
 .bg-white\/50 {
     background-color: rgb(255 255 255 / 0.5)
-}
-.bg-gray-200 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(229 231 235 / var(--tw-bg-opacity))
 }
 .bg-gradient-to-b {
     background-image: linear-gradient(to bottom, var(--tw-gradient-stops))
@@ -1360,6 +1333,10 @@ video {
 }
 .p-3 {
     padding: 0.75rem
+}
+.px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem
 }
 .px-3 {
     padding-left: 0.75rem;
@@ -1421,18 +1398,6 @@ video {
     padding-top: 2rem;
     padding-bottom: 2rem
 }
-.py-32 {
-    padding-top: 8rem;
-    padding-bottom: 8rem
-}
-.px-12 {
-    padding-left: 3rem;
-    padding-right: 3rem
-}
-.px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem
-}
 .pb-12 {
     padding-bottom: 3rem
 }
@@ -1441,6 +1406,9 @@ video {
 }
 .pb-4 {
     padding-bottom: 1rem
+}
+.pb-6 {
+    padding-bottom: 1.5rem
 }
 .pl-12 {
     padding-left: 3rem
@@ -1486,12 +1454,6 @@ video {
 }
 .pt-9 {
     padding-top: 2.25rem
-}
-.pb-24 {
-    padding-bottom: 6rem
-}
-.pb-6 {
-    padding-bottom: 1.5rem
 }
 .text-left {
     text-align: left
@@ -1634,14 +1596,6 @@ video {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity))
 }
-.text-gray-500 {
-    --tw-text-opacity: 1;
-    color: rgb(107 114 128 / var(--tw-text-opacity))
-}
-.text-gray-400 {
-    --tw-text-opacity: 1;
-    color: rgb(156 163 175 / var(--tw-text-opacity))
-}
 .line-through {
     text-decoration-line: line-through
 }
@@ -1682,9 +1636,6 @@ video {
 }
 .ring-transparent {
     --tw-ring-color: transparent
-}
-.ring-gray-900\/10 {
-    --tw-ring-color: rgb(17 24 39 / 0.1)
 }
 .blur-2xl {
     --tw-blur: blur(40px);
@@ -1903,13 +1854,6 @@ video {
     --tw-text-opacity: 1;
     color: rgb(239 68 68 / var(--tw-text-opacity))
 }
-.hover\:text-gray-500:hover {
-    --tw-text-opacity: 1;
-    color: rgb(107 114 128 / var(--tw-text-opacity))
-}
-.hover\:ring-gray-900\/20:hover {
-    --tw-ring-color: rgb(17 24 39 / 0.2)
-}
 .focus\:border-neutral-950:focus {
     --tw-border-opacity: 1;
     border-color: rgb(10 10 10 / var(--tw-border-opacity))
@@ -2094,6 +2038,9 @@ video {
         margin-left: 0px;
         margin-right: 0px
     }
+    .sm\:mt-10 {
+        margin-top: 2.5rem
+    }
     .sm\:mt-12 {
         margin-top: 3rem
     }
@@ -2103,17 +2050,11 @@ video {
     .sm\:mt-32 {
         margin-top: 8rem
     }
-    .sm\:mt-10 {
-        margin-top: 2.5rem
-    }
     .sm\:block {
         display: block
     }
     .sm\:inline {
         display: inline
-    }
-    .sm\:flex {
-        display: flex
     }
     .sm\:hidden {
         display: none
@@ -2195,6 +2136,9 @@ video {
         padding-top: 2rem;
         padding-bottom: 2rem
     }
+    .sm\:pb-32 {
+        padding-bottom: 8rem
+    }
     .sm\:pl-16 {
         padding-left: 4rem
     }
@@ -2203,9 +2147,6 @@ video {
     }
     .sm\:pt-8 {
         padding-top: 2rem
-    }
-    .sm\:pb-32 {
-        padding-bottom: 8rem
     }
     .sm\:text-3xl {
         font-size: 1.75rem;
@@ -2234,10 +2175,6 @@ video {
     .sm\:text-sm {
         font-size: 0.875rem;
         line-height: 1.5rem
-    }
-    .sm\:text-2xl {
-        font-size: 1.5rem;
-        line-height: 2.25rem
     }
     .sm\:font-semibold {
         font-weight: 600
@@ -2399,9 +2336,17 @@ video {
         -moz-column-gap: 2rem;
              column-gap: 2rem
     }
+    .lg\:px-0 {
+        padding-left: 0px;
+        padding-right: 0px
+    }
     .lg\:px-12 {
         padding-left: 3rem;
         padding-right: 3rem
+    }
+    .lg\:px-24 {
+        padding-left: 6rem;
+        padding-right: 6rem
     }
     .lg\:px-8 {
         padding-left: 2rem;
@@ -2411,13 +2356,8 @@ video {
         padding-top: 10rem;
         padding-bottom: 10rem
     }
-    .lg\:px-0 {
-        padding-left: 0px;
-        padding-right: 0px
-    }
-    .lg\:px-24 {
-        padding-left: 6rem;
-        padding-right: 6rem
+    .lg\:pb-24 {
+        padding-bottom: 6rem
     }
     .lg\:pl-4 {
         padding-left: 1rem
@@ -2428,30 +2368,17 @@ video {
     .lg\:pr-16 {
         padding-right: 4rem
     }
-    .lg\:pt-40 {
-        padding-top: 10rem
-    }
-    .lg\:pb-56 {
-        padding-bottom: 14rem
-    }
-    .lg\:pt-48 {
-        padding-top: 12rem
-    }
-    .lg\:pb-24 {
-        padding-bottom: 6rem
-    }
-    .lg\:pt-24 {
-        padding-top: 6rem
-    }
     .lg\:pr-24 {
         padding-right: 6rem
     }
     .lg\:pt-12 {
         padding-top: 3rem
     }
-    .lg\:text-4xl {
-        font-size: 2rem;
-        line-height: 2.5rem
+    .lg\:pt-24 {
+        padding-top: 6rem
+    }
+    .lg\:pt-40 {
+        padding-top: 10rem
     }
     .lg\:text-5xl {
         font-size: 2.5rem;
