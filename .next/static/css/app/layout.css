@@ -860,6 +860,10 @@ video {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem
 }
+.my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem
+}
 .-mt-3 {
     margin-top: -0.75rem
 }
@@ -1028,6 +1032,9 @@ video {
 }
 .max-w-xl {
     max-width: 36rem
+}
+.max-w-none {
+    max-width: none
 }
 .flex-1 {
     flex: 1 1 0%

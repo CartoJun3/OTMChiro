@@ -1,6 +1,5 @@
 import { type Metadata } from 'next'
-import Image from 'next/image'
-import Script from 'next/script'
+//import MailchimpForm from '@/components/MailchimpSignup'
 import ContactSection2 from '@/components/ContactSection2'
 import { Container } from '@/components/Container'
 import { FadeIn, FadeInStagger } from '@/components/FadeIn'
@@ -68,13 +67,6 @@ export default async function Home() {
 
   return (
     <>
-    <Script
-        id="mcjs"
-        strategy="beforeInteractive" // You can change this based on when you want the script to load
-        dangerouslySetInnerHTML={{
-          __html: `!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/6ebc9c4bfd5a6e27dac0a7233/92094eae62405b0e9c381201e.js");`,
-        }}
-      />
     <Hero></Hero>
       {/* <Testimonial
         className=""
