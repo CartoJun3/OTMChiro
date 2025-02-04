@@ -43,7 +43,7 @@ const people = [
   
   export function HomePageIcons() {
     return (
-      <div className="bg-gray-200 py-16 mt-10">
+      <div className="bg-gray-200 py-10 mt-10">
         <div className="mx-auto max-w-7xl px-24 text-center lg:px-24">
           <ul
             role="list"
@@ -52,7 +52,7 @@ const people = [
             {people.map((person) => (
               <li key={person.name}>
                 <img className="mx-auto h-24 w-24 rounded-md hover:scale-110" src={person.imageUrl} alt="" />
-                <h3 className="mt-6 text-base text-xl font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
+                <h3 className="mt-6 text-xl font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
                 <p className="text-sm leading-6 font-semibold text-red-500">{person.role}</p>
               </li>
             ))}

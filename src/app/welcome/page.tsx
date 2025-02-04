@@ -8,6 +8,7 @@ export default async function Welcome() {
         <>
         <Container>
         <LandingPageForm></LandingPageForm>
+        {/* Images Section */}
         <div className="mt-8 mb-8 grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
               <div>
                 <div className="aspect-h-2 aspect-w-3 w-full overflow-hidden rounded-lg">

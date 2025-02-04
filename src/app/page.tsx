@@ -14,22 +14,6 @@ import { HomePageIcons } from '@/components/HomePageIcons'
 function Benefits() {
   return (
     <>
-      {/* <div className='bg-gray-200 mt-6'><SectionIntro
-        title="OTM - Own The Movement"
-        className="mt-8 sm:mt-12 lg:mt-16"
-      >
-        <p>
-        Welcome to Own The Movement. We're more than just chiropractic care; we're your partners in movement. Our vision is to:</p>
-        <ol className="list-decimal list-inside pt-6 pl-6">
-          <li>Identify your specific pain point and why it's important to you. </li>
-          <li>Guide you to move better, addressing the root causes of discomfort. </li>
-          <li>Create the freedom to perform at your best, both in and out of the clinic. </li>
-        </ol> 
-<p className='pt-6'>Whether you're an athlete, a parent, or simply seeking someone who sees a way forwards to your goals, Own The Movement is here to support you every step of the way. Let's <b>own your movement</b> together.
-
-        </p>
-      </SectionIntro>
-      </div> */}
       <Container className="mt-4">
         <div className="lg:flex lg:items-center lg:justify-end">
           <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
@@ -68,12 +52,6 @@ export default async function Home() {
   return (
     <>
     <Hero></Hero>
-      {/* <Testimonial
-        className=""
-        client={{ name: 'Dr Andrew Huberman - Neuroscientist'}}
-      >
-        The mind and body are intimately connected. Taking care of one is essential for taking care of the other.
-      </Testimonial> */}
       <HomePageIcons />
       <Benefits />
       <br></br>
