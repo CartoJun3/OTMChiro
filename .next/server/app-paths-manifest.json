@@ -1,5 +1,5 @@
 {
-  "/community/sunnybank/page": "app/community/sunnybank/page.js",
   "/book/page": "app/book/page.js",
-  "/community/sunnybank-hills/page": "app/community/sunnybank-hills/page.js"
+  "/community/sunnybank-hills/page": "app/community/sunnybank-hills/page.js",
+  "/community/sunnybank/page": "app/community/sunnybank/page.js"
 }
