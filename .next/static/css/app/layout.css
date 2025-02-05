@@ -821,6 +821,9 @@ video {
 .col-span-2 {
     grid-column: span 2 / span 2
 }
+.col-auto {
+    grid-column: auto
+}
 .col-start-1 {
     grid-column-start: 1
 }
@@ -1452,6 +1455,12 @@ video {
 }
 .pt-9 {
     padding-top: 2.25rem
+}
+.pl-4 {
+    padding-left: 1rem
+}
+.pl-6 {
+    padding-left: 1.5rem
 }
 .text-left {
     text-align: left

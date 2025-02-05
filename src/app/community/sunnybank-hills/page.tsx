@@ -19,12 +19,16 @@ our team is dedicated to delivering high-quality chiropractic care in Sunnybank 
 support your health journey.
                 </p>
                 <p className="mt-8">
-                We specialize in helping people with posture correction, headaches, neck pain, and back
-pain. Many of these issues arise from poor habits, prolonged sitting, or physical strain, but with
-the right care they can be managed effectively. At OTM Chiropractic, we focus on finding
-the root cause of your discomfort, using hands-on treatment and movement-based solutions to
-help restore function and reduce pain.
+                We specialize in helping people with <strong><ul className="pl-6"><li>posture correction</li><li>headaches</li><li>neck and back pain</li><li>sciatica</li></ul></strong> which are common issues that can stem from poor habits, prolonged sitting, or physical strain. In a busy suburb like Sunnybank Hills, where students and professionals spend long hours studying and working, spinal health plays a crucial role in brain function, concentration, and overall academic performance.
                 </p>
+                <div className="mt-4 flex items-center justify-center md:hidden">
+              <a
+                href="/book"
+                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >
+                Book Now to start your journey to better health
+              </a>
+            </div>
               </div>
               <div>
                 <p>
