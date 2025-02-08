@@ -19,7 +19,7 @@ our team is dedicated to delivering high-quality chiropractic care in Sunnybank 
 support your health journey.
                 </p>
                 <p className="mt-8">
-                We specialize in helping people with <strong><ul className="pl-6"><li>posture correction</li><li>headaches</li><li>neck and back pain</li><li>sciatica</li></ul></strong> which are common issues that can stem from poor habits, prolonged sitting, or physical strain. In a busy suburb like Sunnybank Hills, where students and professionals spend long hours studying and working, spinal health plays a crucial role in brain function, concentration, and overall academic performance.
+                We specialize in helping people with <strong><ul className="pl-6"><li>pPosture Correction</li><li>Headaches</li><li>Neck and Back Pain</li><li>Sciatica</li></ul></strong>These are common issues that can stem from poor habits, prolonged sitting, or physical strain. In a busy suburb like Sunnybank Hills, where students and professionals spend long hours studying and working, spinal health plays a crucial role in brain function, concentration, and overall academic performance.
                 </p>
                 <div className="mt-4 flex items-center justify-center md:hidden">
               <a
