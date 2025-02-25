@@ -8,18 +8,28 @@ export default function AboutIntro() {
           <div className="px-6 mt-8 xl:col-span-6">
             <div className="mx-auto max-w-2xl lg:mx-0">
               <h1 className="mt-6 block max-w-5xl font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-6xl">
-                Lead Chiropractor: <br></br>Ben Lowe
+                Meet Dr Ben
               </h1>
+              <h2 className="mt-2 block text-xl font-display font-medium tracking-tight text-neutral-950 [text-wrap:balance]">
+              Leading Chiropractor in Brisbane for Posture & Movement
+              </h2>
+              <div className="md:hidden relative">
+            <Image
+              className="pt-8 max-h-50 object-top object-cover lg:absolute lg:inset-0 lg:aspect-[8/7] lg:pr-16 lg:max-h-50"
+              src={AboutImage}
+              alt=""
+            />
+          </div>
               <p className="mt-6 text-md leading-8 text-gray-600">
-              Dr Ben has over 20 years gymnastics experience at a national level and was a head gymnastics coach for 10 years. He holds a Masters in Clinical Chiropractic. Ben holds a deep appreciation for the nuances of movement and what it takes to break through long term pain. Through his personal experience in gymnastics, parkour, mountain biking, skateboarding and rock climbing, Ben has developed a strong understanding of all forms of movement. Beyond his professional roles, Ben dedicates his chiropractic expertise to community impact, notably contributing to Homeless Connect in Brisbane CBD.
+              If you’re looking for the best chiropractor in Brisbane to help with posture correction, chronic pain, and movement issues, Dr. Ben at OTM Chiropractic in Sunnybank Hills is your go to expert.
 <br></br><br></br>
-Having personally grappled with chronic rib and low back pain, Ben's empathy fuels his passion for chiropractic care. Ben recognizes the uniqueness of each person's journey, having successfully aided a variety of individuals, including personal trainers, gymnasts, mountain bikers, dancers, skiers and many more. Dedicated to the healing process, he takes pride in helping people move better and attain their well-being goals.
+With over 20 years of gymnastics experience at a national level and a decade as a head gymnastics coach, Dr. Ben has an in-depth understanding of body mechanics, movement efficiency, and long-term pain relief. Holding a Master’s in Clinical Chiropractic, he specializes in helping people improve posture, reduce pain, and regain confidence in their movement.
               </p>
             </div>
           </div>
-          <div className="relative lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0">
+          <div className="relative hidden lg:block lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0">
             <Image
-              className="pt-16 max-h-50 object-top object-cover lg:absolute lg:inset-0 lg:aspect-[8/7] lg:pr-16 lg:max-h-50"
+              className="pt-24 max-h-50 object-top object-cover lg:absolute lg:inset-0 lg:aspect-[8/7] lg:pr-16 lg:max-h-50"
               src={AboutImage}
               alt=""
             />

@@ -1,4 +1,4 @@
-import spine from '@/images/spine.png'
+'use client'
 const people = [
 
 
@@ -50,7 +50,9 @@ const people = [
             className="mx-auto mt-6 grid max-w-xl grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
           >
             {people.map((person) => (
-              <li key={person.name}>
+              <li key={person.name}
+              onClick={() => window.location.href = "/services"} 
+              className="cursor-pointer">
                 <img className="mx-auto h-24 w-24 rounded-md hover:scale-110" src={person.imageUrl} alt="" />
                 <h3 className="mt-6 text-xl font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
                 <p className="text-sm leading-6 font-semibold text-red-500">{person.role}</p>

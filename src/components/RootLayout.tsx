@@ -136,8 +136,8 @@ function Navigation() {
         <NavigationItem href="/book">Make a Booking</NavigationItem>
       </NavigationRow>
       <NavigationRow>
-        <NavigationItem href="/services">Our Services</NavigationItem>
-        <NavigationItem href="/contact">Contact Us</NavigationItem>
+        <NavigationItem href="/services">Common Problems</NavigationItem>
+        <NavigationItem href="/treatment">Our Treatment Method</NavigationItem>
       </NavigationRow>
     </nav>
   )

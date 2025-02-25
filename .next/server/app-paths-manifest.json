@@ -1,4 +1,7 @@
 {
-  "/community/robertson/page": "app/community/robertson/page.js",
-  "/community/calamvale/page": "app/community/calamvale/page.js"
+  "/contact/page": "app/contact/page.js",
+  "/about/page": "app/about/page.js",
+  "/services/page": "app/services/page.js",
+  "/welcome/page": "app/welcome/page.js",
+  "/treatment/page": "app/treatment/page.js"
 }

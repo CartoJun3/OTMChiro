@@ -40,7 +40,12 @@ export function ClinicHours({
       </li>
       <li>
         <ClinicHour name="Monday & Thursday" invert={invert}>
-          8am - 6pm
+          8am - 11am, 2:30pm - 6pm
+        </ClinicHour>
+      </li>
+      <li>
+        <ClinicHour name="Tuesday & Friday" invert={invert}>
+          8am - 11am
         </ClinicHour>
       </li>
       <li>

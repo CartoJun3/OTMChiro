@@ -18,16 +18,22 @@ export default async function About() {
     <>
     <br></br>
      <AboutIntro></AboutIntro>
-      <PageIntro eyebrow="" title="Our Patients">
+      <PageIntro eyebrow="" title="Why Choose Dr. Ben as Your Sunnybank Hills Chiropractor?">
         <p>
-        Currently working in Brisbane North, Ben is now expanding to Brisbane South in order to provide chiropractic care to all the people of Brisbane. We care for people of all ages ranging from
-young athletes, children, mums, dads and retirees. We strive to help you <b>own the
-movement</b>. To help you understand a way forwards and empower you on your health journey.
+        Dr. Ben’s expertise goes beyond traditional chiropractic adjustments. His movement-based approach is rooted in firsthand experience with gymnastics, parkour, mountain biking, rock climbing and running — activities that demand strength, control, and flexibility. He understands how postural imbalances, mobility restrictions, and poor movement patterns contribute to pain and dysfunction.
         </p><br></br>
           <p>
-          Servicing all suburbs in Brisbane South.
+          If you struggle with:
+<br></br>
+✅ Poor posture from long hours at a desk
+<br></br>
+✅ Chronic back, neck, or rib pain
+<br></br>
+✅ Restricted mobility affecting your sport or daily life
+<br></br>
+✅ Injuries from training, gym workouts, or extreme sports
           </p>
-          <p className='collapse'>Servicing: Sunnybank, Acacia Ridge, Runcorn, Eight Mile Plains, Mount Gravatt, Underwood, Stretton, Calamvale, Kuraby, Algester, Rocklea, Salisbury, Moorooka and surrounds.</p>
+          <p className='pt-6'>Dr. Ben helps people of all ages—from kids to adults—improve posture, relieve pain, and move better. Whether it’s correcting posture in children, easing back pain for parents, or helping athletes perform at their best, he provides expert chiropractic care for the whole family in Sunnybank Hills.</p>
       </PageIntro>
       <br></br>
       <ContactSection2 />
