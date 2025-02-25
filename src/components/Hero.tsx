@@ -6,7 +6,7 @@ export function Hero() {
       <div className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
         <div className="px-6 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-24 lg:pt-24 xl:col-span-6">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h1 className="mt-10 text-4xl font-bold tracking-tight  text-red-500 sm:mt-10 sm:text-6xl">
+            <h1 className="mt-20 text-4xl font-bold tracking-tight  text-red-500 sm:mt-10 sm:text-6xl">
               OTM CHIROPRACTIC
             </h1>
             <h2 className="lg:text-5xl text-3xl font-bold tracking-tight text-neutral-800">
