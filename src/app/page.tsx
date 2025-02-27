@@ -43,6 +43,8 @@ function Benefits() {
 }
 
 export const metadata: Metadata = {
+  title:
+    'OTM Chiropractic | Own the Movement',
   description:
     'Own The Movement Chiropractic is dedicated to providing Brisbane a premier chiropractic and rehabilitation service',
 }
