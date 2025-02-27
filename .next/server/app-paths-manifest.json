@@ -1,7 +1,7 @@
 {
+  "/page": "app/page.js",
+  "/book/page": "app/book/page.js",
   "/about/page": "app/about/page.js",
   "/services/page": "app/services/page.js",
-  "/welcome/page": "app/welcome/page.js",
-  "/treatment/page": "app/treatment/page.js",
-  "/page": "app/page.js"
+  "/treatment/page": "app/treatment/page.js"
 }
