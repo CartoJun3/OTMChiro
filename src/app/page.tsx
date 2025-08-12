@@ -11,6 +11,7 @@ import imagepuzzle from '@/images/4987.jpg'
 import { Hero } from '@/components/Hero'
 import Gallery1 from '@/components/Gallery1'
 import { HomePageIcons } from '@/components/HomePageIcons'
+import DVA_EPC from '@/components/DVA_EPC'
 function Benefits() {
   return (
     <>
@@ -54,8 +55,11 @@ export default async function Home() {
   return (
     <>
     <Hero></Hero>
+      <p></p>
       <HomePageIcons />
       <Benefits />
+      <br></br>
+      <DVA_EPC />
       <br></br>
       <ContactSection2 />
       <Gallery1/>
