@@ -43,7 +43,7 @@ const people = [
   
   export function HomePageIcons() {
     return (
-      <div className="bg-gray-200 py-10 mt-10">
+      <div className="bg-gray-200 py-10">
         <div className="mx-auto max-w-7xl px-24 text-center lg:px-24">
           <ul
             role="list"

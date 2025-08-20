@@ -12,6 +12,45 @@ import { Hero } from '@/components/Hero'
 import Gallery1 from '@/components/Gallery1'
 import { HomePageIcons } from '@/components/HomePageIcons'
 import DVA_EPC from '@/components/DVA_EPC'
+import { Star, MapPin, Stethoscope } from "lucide-react"
+import Link from "next/link"
+
+function FeaturesSection() {
+  return (
+    <section className="bg-black py-16 mt-8">
+      <div className="mx-auto max-w-7xl px-6">
+        <div className="grid grid-cols-1 text-center sm:grid-cols-3 sm:divide-x sm:divide-neutral-700">
+          
+          {/* Feature 1 */}
+          <div className="flex flex-col items-center px-6">
+            <Star className="h-12 w-12 text-yellow-400" />
+            <h3 className="mt-4 text-lg font-semibold text-white">
+              60+ 5 Star Google Reviews
+            </h3>
+          </div>
+          
+          {/* Feature 2 */}
+          <div className="flex flex-col items-center px-6">
+            <MapPin className="h-12 w-12 text-red-400" />
+            <h3 className="mt-4 text-lg font-semibold text-white">
+              Prime Brisbane South Location
+            </h3>
+          </div>
+          
+          {/* Feature 3 */}
+          <div className="flex flex-col items-center px-6">
+            <Stethoscope className="h-12 w-12 text-blue-400" />
+            <h3 className="mt-4 text-lg font-semibold text-white">
+              Expert Chiropractic Care
+            </h3>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  )
+}
+
 function Benefits() {
   return (
     <>
@@ -55,12 +94,33 @@ export default async function Home() {
   return (
     <>
     <Hero></Hero>
-      <p></p>
+    <FeaturesSection />
       <HomePageIcons />
       <Benefits />
       <br></br>
       <DVA_EPC />
       <br></br>
+      <div className="mx-auto max-w-7xl px-6 mb-6">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
+          <Testimonial client={{ name: 'TiteLine Drilling' }}>
+          Ive been seeing Ben for ongoing chronic back pain issues for the past few months. Ben genuinly cares about his clients and spends the time to find the cause, not just the bandaid approach. Highly recommend!
+          </Testimonial>
+
+          <Testimonial client={{ name: 'Julie Campbell' }}>
+          Dr Ben is magic! The best chiropractor I have ever seen. I would not recommend anyone else.
+          </Testimonial>
+        </div>
+        {/* Button below testimonials */}
+        <div className="mt-12 flex justify-center">
+          <Link
+            href="https://www.google.com/search?q=otm+chiropractic+reviews"
+            target="_blank"
+            className="rounded-2xl bg-black px-6 py-3 text-sm font-semibold text-white shadow hover:bg-neutral-800 transition"
+          >
+            View All Google Reviews
+          </Link>
+        </div>
+      </div>
       <ContactSection2 />
       <Gallery1/>
     </>
