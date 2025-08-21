@@ -38,7 +38,7 @@ export function Hero() {
                 href="/book"
                 className="rounded-md bg-red-500 px-6 py-3 text-lg font-bold text-white shadow-lg hover:bg-red-600 transition"
               >
-                $69 New Patient Offer
+                $69 New Patient Offer!
               </a>
             </div>
           </div>
