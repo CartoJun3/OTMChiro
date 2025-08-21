@@ -1120,6 +1120,9 @@ video {
 .grid-cols-\[auto\2c 1fr\] {
     grid-template-columns: auto 1fr
 }
+.flex-row {
+    flex-direction: row
+}
 .flex-col {
     flex-direction: column
 }
@@ -1214,6 +1217,11 @@ video {
     margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(1.5rem * var(--tw-space-y-reverse))
 }
+.space-x-1 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0.25rem * var(--tw-space-x-reverse));
+    margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)))
+}
 .divide-y > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-y-reverse: 0;
     border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
@@ -1221,6 +1229,10 @@ video {
 }
 .divide-gray-900\/10 > :not([hidden]) ~ :not([hidden]) {
     border-color: rgb(17 24 39 / 0.1)
+}
+.divide-neutral-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgb(64 64 64 / var(--tw-divide-opacity))
 }
 .overflow-hidden {
     overflow: hidden
@@ -1463,6 +1475,10 @@ video {
 .py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem
+}
+.py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem
 }
 .pb-12 {
     padding-bottom: 3rem
@@ -2221,6 +2237,11 @@ video {
         --tw-divide-x-reverse: 0;
         border-right-width: calc(1px * var(--tw-divide-x-reverse));
         border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)))
+    }
+    .sm\:divide-y-0 > :not([hidden]) ~ :not([hidden]) {
+        --tw-divide-y-reverse: 0;
+        border-top-width: calc(0px * calc(1 - var(--tw-divide-y-reverse)));
+        border-bottom-width: calc(0px * var(--tw-divide-y-reverse))
     }
     .sm\:divide-neutral-700 > :not([hidden]) ~ :not([hidden]) {
         --tw-divide-opacity: 1;

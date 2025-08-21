@@ -19,28 +19,34 @@ function FeaturesSection() {
   return (
     <section className="bg-black py-16 mt-8">
       <div className="mx-auto max-w-7xl px-6">
-        <div className="grid grid-cols-1 text-center sm:grid-cols-3 sm:divide-x sm:divide-neutral-700">
+        <div className="grid grid-cols-1 text-center divide-y divide-neutral-700 sm:grid-cols-3 sm:divide-y-0 sm:divide-x">
           
           {/* Feature 1 */}
-          <div className="flex flex-col items-center px-6">
-            <Star className="h-12 w-12 text-yellow-400" />
-            <h3 className="mt-4 text-lg font-semibold text-white">
-              60+ 5 Star Google Reviews
+          <div className="flex flex-col items-center px-6 py-6">
+            <div className="flex space-x-1">
+              <Star className="h-12 w-12 text-yellow-400" />
+              <Star className="h-12 w-12 text-yellow-400" />
+              <Star className="h-12 w-12 text-yellow-400" />
+              <Star className="h-12 w-12 text-yellow-400" />
+              <Star className="h-12 w-12 text-yellow-400" />
+            </div>
+            <h3 className="mt-4 text-lg font-semibold text-white text-center">
+              Over 60+ <br />5 Star Google Reviews
             </h3>
           </div>
           
           {/* Feature 2 */}
-          <div className="flex flex-col items-center px-6">
+          <div className="flex flex-col items-center px-6 py-6">
             <MapPin className="h-12 w-12 text-red-400" />
-            <h3 className="mt-4 text-lg font-semibold text-white">
+            <h3 className="mt-4 text-lg font-semibold text-white text-center">
               Prime Brisbane South Location
             </h3>
           </div>
           
           {/* Feature 3 */}
-          <div className="flex flex-col items-center px-6">
+          <div className="flex flex-col items-center px-6 py-6">
             <Stethoscope className="h-12 w-12 text-blue-400" />
-            <h3 className="mt-4 text-lg font-semibold text-white">
+            <h3 className="mt-4 text-lg font-semibold text-white text-center">
               Expert Chiropractic Care
             </h3>
           </div>
@@ -50,6 +56,7 @@ function FeaturesSection() {
     </section>
   )
 }
+
 
 function Benefits() {
   return (
