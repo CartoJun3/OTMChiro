@@ -102,18 +102,18 @@ export default async function Home() {
       <br></br>
       <div className="mx-auto max-w-7xl px-6 mb-6">
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
-          <Testimonial client={{ name: 'TiteLine Drilling' }}>
-          Ive been seeing Ben for ongoing chronic back pain issues for the past few months. Ben genuinly cares about his clients and spends the time to find the cause, not just the bandaid approach. Highly recommend!
+          <Testimonial client={{ name: 'Tom G. - TiteLine Drilling' }}>
+          I've been seeing Ben for ongoing chronic back pain issues for the past few months. Ben genuinly cares about his clients and spends the time to find the cause, not just the bandaid approach. Highly recommend!
           </Testimonial>
 
-          <Testimonial client={{ name: 'Julie Campbell' }}>
+          <Testimonial client={{ name: 'Julie C.' }}>
           Dr Ben is magic! The best chiropractor I have ever seen. I would not recommend anyone else.
           </Testimonial>
         </div>
         {/* Button below testimonials */}
         <div className="mt-12 flex justify-center">
           <Link
-            href="https://www.google.com/search?q=otm+chiropractic+reviews"
+            href="https://www.google.com/search?si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-EyVPZ0adrYPmVSqcVP4-wfpLJ-ArYsZgKCTfaLLh-IIsnUp6F54tvFfdvrqjHBOKw2zTo29S7fljGk_dG6Ia6HrSAakrjbKK3BnAJZoDAHywbkKshA%3D%3D&q=OTM+Chiropractic+Reviews&sa=X&ved=2ahUKEwjZ2-jS15qPAxUCSGcHHQs4DfwQ0bkNegQIPRAE"
             target="_blank"
             className="rounded-2xl bg-black px-6 py-3 text-sm font-semibold text-white shadow hover:bg-neutral-800 transition"
           >
